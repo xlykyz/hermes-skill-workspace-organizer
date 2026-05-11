@@ -13,6 +13,20 @@ A [Hermes Agent](https://github.com/NousResearch/hermes-agent) skill that automa
 - **Platform-agnostic naming conventions** — adapt to Slack, Teams, Discord, Feishu, or any messaging platform
 - **Append-only design** — never deletes your files
 
+
+
+## Related Skills
+
+This skill is part of a **workflow toolkit** — install all three for the best experience:
+
+| Skill | Purpose |
+|-------|---------|
+| **workspace-organizer** ← you're here | Daily file archive by date |
+| [**project-orchestrator**](https://github.com/xlykyz/hermes-skill-project-orchestrator) | Project discovery, context, and loose memory |
+| [**claude-code-workflow**](https://github.com/xlykyz/hermes-skill-claude-code-workflow) | 5-node development pipeline with Claude Code |
+
+Each works standalone, but together they form a complete **file → project → code** workflow.
+
 ## Installation
 
 ### Prerequisites
@@ -20,7 +34,11 @@ A [Hermes Agent](https://github.com/NousResearch/hermes-agent) skill that automa
 - Hermes Agent (any version)
 - Bash 4.0+
 
-### Quick Install
+### Simplest Installation
+
+Forward or copy-paste this README to your Hermes Agent — it will understand what to do and configure itself.
+
+### Quick Install (Manual)
 
 ```bash
 # Clone the repository
