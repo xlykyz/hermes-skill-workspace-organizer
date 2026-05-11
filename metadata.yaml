@@ -1,0 +1,6 @@
+name: workspace-organizer
+description: "Daily date-structured workspace archive — auto-organize agent outputs, received files, and collected data by date."
+version: 1.0.0
+author: xlykyz
+tags: [hermes, skill, workspace, file-management]
+instruction: ./SKILL.md
